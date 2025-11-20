@@ -1,3 +1,13 @@
 #!/usr/bin/env node
 
-console.log("Welcome to the Brain Games!");
+import getName from "./src/cli.js";
+
+const textCmd = (text) => {
+  console.log(text);
+};
+
+textCmd("Welcome to the Brain Games!");
+
+const name = getName();
+
+textCmd(`Hello, ${name}!`);
