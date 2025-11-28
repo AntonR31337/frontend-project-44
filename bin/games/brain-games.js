@@ -1,6 +1,6 @@
-#!/usr/bin/env node
+#!/usr/bin/games/env node
 
-import getName from "./src/cli";
+import getName from "../src/cli";
 
 const name = getName();
 
